@@ -3,37 +3,47 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>Responsive Header</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet" />
+    <title>extra cade</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css"
+      rel="stylesheet" />
     <link rel="stylesheet" href="./style.css" />
   </head>
   <body>
     <header>
-      <div class="main-header d-flex align-items-center justify-content-between w-100">
+      <div
+        class="main-header d-flex align-items-center justify-content-between w-100">
         <div class="logo d-flex justify-content-center align-items-center">
-          <img src="./images/home/logo.png" alt="" class="header-logo" />
+          <img src="./images/home/logo.png" alt class="header-logo" />
         </div>
 
-        <button class="custom-toggler d-lg-none me-3" type="button" data-bs-toggle="collapse" data-bs-target="#mainNav" aria-controls="mainNav" aria-expanded="false" aria-label="Toggle navigation">
+        <button class="custom-toggler d-lg-none me-3" type="button"
+          data-bs-toggle="collapse" data-bs-target="#mainNav"
+          aria-controls="mainNav" aria-expanded="false"
+          aria-label="Toggle navigation">
           <span></span>
           <span></span>
           <span></span>
         </button>
 
-<div class="nav collapse navbar-collapse d-lg-flex justify-content-center align-items-center" id="mainNav">
+        <div
+          class="nav collapse navbar-collapse d-lg-flex justify-content-center align-items-center"
+          id="mainNav">
           <nav>
-<ul class="list-unstyled d-flex flex-lg-row flex-column justify-content-center align-items-center gap-3 m-0 p-0">
-                <li><a href="#">Home</a></li>
+            <ul
+              class="list-unstyled d-flex flex-lg-row flex-column justify-content-center align-items-center gap-3 m-0 p-0">
+              <li><a href="#">Home</a></li>
               <li><a href="#">About</a></li>
               <li><a href="#">Menu</a></li>
               <li><a href="#">Blog</a></li>
               <li><a href="#">Shop</a></li>
               <li><a href="#">FAQ</a></li>
+
               <li><a href="#">Contact</a></li>
               <li>
                 <a class="d-flex align-items-center" href="#">
                   <p class="mb-0 me-2">Cart</p>
-                  <img src="./images/home/cart.svg" alt="" class="cart-icon" />
+                  <img src="./images/home/cart.svg" alt class="cart-icon" />
                 </a>
               </li>
             </ul>
@@ -41,7 +51,162 @@
         </div>
       </div>
     </header>
+    <section class="hero my-4">
+      <div class="container">
+        <div class="row g-3">
+          <div class="left col-lg-6 col-md-12">
+            <h1>
+              Crafted with <span> Passion</span>, Served with <span> a
+                Smile</span>
+            </h1>
+            <p>A coffeehouse, coffee shop, or café is an establishment that
+              primarily serves coffee of various types, e.g. espresso, latte,
+              and cappuccino</p>
+            <div class="links row">
+              <a href="#"
+                class="btn-custom dark-btn col-lg-6 col-md-12 d-flex align-items-center overflow-hidden text-decoration-none">
+                <span class="icon"></span>
+                <span class="text">VIEW OUR MENU</span>
+              </a>
 
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js"></script>
+              <a href="#"
+                class="btn-custom beige-btn col-lg-6 col-md-12 d-flex align-items-center overflow-hidden text-decoration-none ">
+                <span class="icon"></span>
+                <span class="text">RESERVE NOW</span>
+              </a>
+
+            </div>
+          </div>
+          <div class="right col-lg-6 col-md-12 ">
+            <img src="./images/home/hero.jpg" alt>
+
+          </div>
+
+        </div>
+      </div>
+    </section>
+    <section class="cafe">
+      <div class="container">
+        <h2 class="text-center">So much More than a <span>café</span></h2>
+        <div class="row">
+       <div class="row justify-content-center g-5 row row-cols-1 row-cols-md-2 row-cols-lg-4 g-4">
+  <div class="product-card col-lg-3 col-md-6 col-sm-12 ">
+    <div class="product-image">
+      <img src="./images/home/cub1.jpg" class="main-img" alt="main">
+      <img src="./images/home/cub2.jpg" class="hover-img" alt="hover">
+    </div>
+    <button class="add-to-cart">
+      <img src="./images/home/cart.png" alt="cart">
+      <p class="text-capitalize mb-0">add to cart</p>
+    </button>
+    <div class="product-info">
+      <h3>Irish Coffee</h3>
+      <div class="details">
+        <span>Coffee</span>
+        <span class="price">$12</span>
+      </div>
+    </div>
+  </div>
+
+  <div class="product-card col-lg-3 col-md-6 col-sm-12">
+    <div class="product-image">
+      <img src="./images/home/cub3.jpg" class="main-img" alt="main">
+      <img src="./images/home/cub4.jpg" class="hover-img" alt="hover">
+    </div>
+    <button class="add-to-cart">
+      <img src="./images/home/cart.png" alt="cart">
+      <p class="text-capitalize mb-0">add to cart</p>
+    </button>
+    <div class="product-info">
+      <h3>Iced Latte</h3>
+      <div class="details">
+        <span>Coffee</span>
+        <span class="price">$9</span>
+      </div>
+    </div>
+  </div>
+
+  <div class="product-card col-lg-3 col-md-6 col-sm-12">
+    <div class="product-image">
+      <img src="./images/home/cub5.jpg" class="main-img" alt="main">
+      <img src="./images/home/cub6.jpg" class="hover-img" alt="hover">
+    </div>
+    <button class="add-to-cart">
+      <img src="./images/home/cart.png" alt="cart">
+      <p class="text-capitalize mb-0">add to cart</p>
+    </button>
+    <div class="product-info">
+      <h3>Affogato</h3>
+      <div class="details">
+        <span>Coffee</span>
+        <span class="price">$11</span>
+      </div>
+    </div>
+  </div>
+
+  <div class="product-card col-lg-3 col-md-6 col-sm-12">
+    <div class="product-image">
+      <img src="./images/home/cub7.jpg" class="main-img" alt="main">
+      <img src="./images/home/cub8.jpg" class="hover-img" alt="hover">
+    </div>
+    <button class="add-to-cart">
+      <img src="./images/home/cart.png" alt="cart">
+      <p class="text-capitalize mb-0">add to cart</p>
+    </button>
+    <div class="product-info">
+      <h3>Espresso</h3>
+      <div class="details">
+        <span>Coffee</span>
+        <span class="price">$8</span>
+      </div>
+    </div>
+  </div>
+  <div class="product-card col-lg-3 col-md-6 col-sm-12">
+    <div class="product-image">
+      <img src="./images/home/cub4.jpg" class="main-img" alt="main">
+      <img src="./images/home/cub1.jpg" class="hover-img" alt="hover">
+    </div>
+    <button class="add-to-cart">
+      <img src="./images/home/cart.png" alt="cart">
+      <p class="text-capitalize mb-0">add to cart</p>
+    </button>
+    <div class="product-info">
+      <h3>Espresso</h3>
+      <div class="details">
+        <span>Coffee</span>
+        <span class="price">$8</span>
+      </div>
+    </div>
+  </div>
+  <div class="product-card col-lg-3 col-md-6 col-sm-12">
+    <div class="product-image">
+      <img src="./images/home/cub1.jpg" class="main-img" alt="main">
+      <img src="./images/home/cub6.jpg" class="hover-img" alt="hover">
+    </div>
+    <button class="add-to-cart">
+      <img src="./images/home/cart.png" alt="cart">
+      <p class="text-capitalize mb-0">add to cart</p>
+    </button>
+    <div class="product-info">
+      <h3>Espresso</h3>
+      <div class="details">
+        <span>Coffee</span>
+        <span class="price">$8</span>
+      </div>
+    </div>
+  </div>
+</div>
+
+        </div>
+
+        <div class="end d-flex justify-content-center ">
+          <p class="text-center ">
+          View all coffees
+          </p>
+          </div>
+      </div>
+    </section>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js"></script>
   </body>
 </html>
