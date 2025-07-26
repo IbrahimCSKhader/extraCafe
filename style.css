@@ -1,0 +1,82 @@
+:root {
+  --font1: 'Nunito', sans-serif;
+  --font2: 'Oleo Script Swash Caps', cursive;
+  --beige: #e2a371;
+  --dark: #1c1304;
+  font-size: 20px;
+}
+
+body {
+  margin-top: 0;
+  font-family: var(--font1);
+  /* background-color: #342409; */
+}
+
+.main-header {
+  width: 100%;
+  height: 6rem;
+  /* padding: 0 1rem; */
+}
+.main-header .logo{
+  background-color: var(--beige);
+  width: 35%;
+}
+.main-header .logo,
+.main-header .nav {
+  height: 100%;
+}
+.main-header .logo img {
+  height: 2.5rem;
+  transition: transform 0.15s ease;
+}
+
+.main-header .logo img:hover {
+  transform: rotate(10deg);
+}
+
+.custom-toggler {
+  background: none;
+  border: none;
+  cursor: pointer;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 5px;
+  padding: 10px;
+  z-index: 999;
+}
+
+.custom-toggler span {
+  display: block;
+  width: 30px;
+  height: 3px;
+  background-color: var(--beige);
+  transition: all 0.3s ease;
+}
+
+.main-header .nav {
+  background-color: var(--dark);
+  width: 100%;
+}
+
+.main-header .nav ul {
+  gap: 30px;
+}
+
+.main-header .nav ul li {
+  transition: transform 0.15s ease;
+}
+
+.main-header .nav ul li:hover {
+  transform: rotate(10deg);
+}
+
+.main-header .nav ul li a {
+  color: aliceblue;
+  text-decoration: none;
+  transition: color 0.5s ease, transform 3s ease;
+}
+
+.main-header .nav ul li a:hover {
+  color: var(--beige);
+}
