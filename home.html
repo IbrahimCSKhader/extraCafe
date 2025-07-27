@@ -4,34 +4,52 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>extra cade</title>
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css"
-      rel="stylesheet" />
+      rel="stylesheet"
+    />
+    <link href="https://fonts.googleapis.com/css2?family=Oleo+Script+Swash+Caps&display=swap" rel="stylesheet">
+
     <link rel="stylesheet" href="./style.css" />
   </head>
+
   <body>
     <header>
       <div
-        class="main-header d-flex align-items-center justify-content-between w-100">
+        class="nav navbar-expand-lg main-header d-flex align-items-center justify-content-between w-100"
+      >
         <div class="logo d-flex justify-content-center align-items-center">
           <img src="./images/home/logo.png" alt class="header-logo" />
         </div>
 
-        <button class="custom-toggler d-lg-none me-3" type="button"
-          data-bs-toggle="collapse" data-bs-target="#mainNav"
-          aria-controls="mainNav" aria-expanded="false"
-          aria-label="Toggle navigation">
+        <button
+          class="custom-toggler d-lg-none me-3"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#mainNav"
+          aria-controls="mainNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
           <span></span>
           <span></span>
           <span></span>
         </button>
 
         <div
-          class="nav collapse navbar-collapse d-lg-flex justify-content-center align-items-center"
-          id="mainNav">
+          class="nav nav navbar-expand-lg collapse navbar-collapse d-lg-flex justify-content-center align-items-center"
+          id="mainNav"
+        >
           <nav>
             <ul
-              class="list-unstyled d-flex flex-lg-row flex-column justify-content-center align-items-center gap-3 m-0 p-0">
+              class="list-unstyled d-flex flex-lg-row flex-column justify-content-center align-items-center gap-3 m-0 p-0"
+            >
               <li><a href="#">Home</a></li>
               <li><a href="#">About</a></li>
               <li><a href="#">Menu</a></li>
@@ -56,32 +74,35 @@
         <div class="row g-3">
           <div class="left col-lg-6 col-md-12">
             <h1>
-              Crafted with <span> Passion</span>, Served with <span> a
-                Smile</span>
+              Crafted with <span> Passion</span>, Served with
+              <span> a Smile</span>
             </h1>
-            <p>A coffeehouse, coffee shop, or café is an establishment that
+            <p>
+              A coffeehouse, coffee shop, or café is an establishment that
               primarily serves coffee of various types, e.g. espresso, latte,
-              and cappuccino</p>
+              and cappuccino
+            </p>
             <div class="links row">
-              <a href="#"
-                class="btn-custom dark-btn col-lg-6 col-md-12 d-flex align-items-center overflow-hidden text-decoration-none">
+              <a
+                href="#"
+                class="btn-custom dark-btn col-lg-6 col-md-12 d-flex align-items-center overflow-hidden text-decoration-none"
+              >
                 <span class="icon"></span>
                 <span class="text">VIEW OUR MENU</span>
               </a>
 
-              <a href="#"
-                class="btn-custom beige-btn col-lg-6 col-md-12 d-flex align-items-center overflow-hidden text-decoration-none ">
+              <a
+                href="#"
+                class="btn-custom beige-btn col-lg-6 col-md-12 d-flex align-items-center overflow-hidden text-decoration-none"
+              >
                 <span class="icon"></span>
                 <span class="text">RESERVE NOW</span>
               </a>
-
             </div>
           </div>
-          <div class="right col-lg-6 col-md-12 ">
-            <img src="./images/home/hero.jpg" alt>
-
+          <div class="right col-lg-6 col-md-12">
+            <img src="./images/home/hero.jpg" alt />
           </div>
-
         </div>
       </div>
     </section>
@@ -89,124 +110,775 @@
       <div class="container">
         <h2 class="text-center">So much More than a <span>café</span></h2>
         <div class="row">
-       <div class="row justify-content-center g-5 row row-cols-1 row-cols-md-2 row-cols-lg-4 g-4">
-  <div class="product-card col-lg-3 col-md-6 col-sm-12 ">
-    <div class="product-image">
-      <img src="./images/home/cub1.jpg" class="main-img" alt="main">
-      <img src="./images/home/cub2.jpg" class="hover-img" alt="hover">
-    </div>
-    <button class="add-to-cart">
-      <img src="./images/home/cart.png" alt="cart">
-      <p class="text-capitalize mb-0">add to cart</p>
-    </button>
-    <div class="product-info">
-      <h3>Irish Coffee</h3>
-      <div class="details">
-        <span>Coffee</span>
-        <span class="price">$12</span>
-      </div>
-    </div>
-  </div>
+          <div
+            class="row justify-content-center g-5 row row-cols-1 row-cols-md-2 row-cols-lg-4 g-4"
+          >
+            <div class="product-card col-lg-3 col-md-6 col-sm-12">
+              <div class="product-image">
+                <img src="./images/home/cub1.jpg" class="main-img" alt="main" />
+                <img
+                  src="./images/home/cub2.jpg"
+                  class="hover-img"
+                  alt="hover"
+                />
+              </div>
+              <button class="add-to-cart">
+                <img src="./images/home/cart.png" alt="cart" />
+                <p class="text-capitalize mb-0">add to cart</p>
+              </button>
+              <div class="product-info">
+                <h3>Irish Coffee</h3>
+                <div class="details">
+                  <span>Coffee</span>
+                  <span class="price">$12</span>
+                </div>
+              </div>
+            </div>
 
-  <div class="product-card col-lg-3 col-md-6 col-sm-12">
-    <div class="product-image">
-      <img src="./images/home/cub3.jpg" class="main-img" alt="main">
-      <img src="./images/home/cub4.jpg" class="hover-img" alt="hover">
-    </div>
-    <button class="add-to-cart">
-      <img src="./images/home/cart.png" alt="cart">
-      <p class="text-capitalize mb-0">add to cart</p>
-    </button>
-    <div class="product-info">
-      <h3>Iced Latte</h3>
-      <div class="details">
-        <span>Coffee</span>
-        <span class="price">$9</span>
-      </div>
-    </div>
-  </div>
+            <div class="product-card col-lg-3 col-md-6 col-sm-12">
+              <div class="product-image">
+                <img src="./images/home/cub3.jpg" class="main-img" alt="main" />
+                <img
+                  src="./images/home/cub4.jpg"
+                  class="hover-img"
+                  alt="hover"
+                />
+              </div>
+              <button class="add-to-cart">
+                <img src="./images/home/cart.png" alt="cart" />
+                <p class="text-capitalize mb-0">add to cart</p>
+              </button>
+              <div class="product-info">
+                <h3>Iced Latte</h3>
+                <div class="details">
+                  <span>Coffee</span>
+                  <span class="price">$9</span>
+                </div>
+              </div>
+            </div>
 
-  <div class="product-card col-lg-3 col-md-6 col-sm-12">
-    <div class="product-image">
-      <img src="./images/home/cub5.jpg" class="main-img" alt="main">
-      <img src="./images/home/cub6.jpg" class="hover-img" alt="hover">
-    </div>
-    <button class="add-to-cart">
-      <img src="./images/home/cart.png" alt="cart">
-      <p class="text-capitalize mb-0">add to cart</p>
-    </button>
-    <div class="product-info">
-      <h3>Affogato</h3>
-      <div class="details">
-        <span>Coffee</span>
-        <span class="price">$11</span>
-      </div>
-    </div>
-  </div>
+            <div class="product-card col-lg-3 col-md-6 col-sm-12">
+              <div class="product-image">
+                <img src="./images/home/cub5.jpg" class="main-img" alt="main" />
+                <img
+                  src="./images/home/cub6.jpg"
+                  class="hover-img"
+                  alt="hover"
+                />
+              </div>
+              <button class="add-to-cart">
+                <img src="./images/home/cart.png" alt="cart" />
+                <p class="text-capitalize mb-0">add to cart</p>
+              </button>
+              <div class="product-info">
+                <h3>Affogato</h3>
+                <div class="details">
+                  <span>Coffee</span>
+                  <span class="price">$11</span>
+                </div>
+              </div>
+            </div>
 
-  <div class="product-card col-lg-3 col-md-6 col-sm-12">
-    <div class="product-image">
-      <img src="./images/home/cub7.jpg" class="main-img" alt="main">
-      <img src="./images/home/cub8.jpg" class="hover-img" alt="hover">
-    </div>
-    <button class="add-to-cart">
-      <img src="./images/home/cart.png" alt="cart">
-      <p class="text-capitalize mb-0">add to cart</p>
-    </button>
-    <div class="product-info">
-      <h3>Espresso</h3>
-      <div class="details">
-        <span>Coffee</span>
-        <span class="price">$8</span>
+            <div class="product-card col-lg-3 col-md-6 col-sm-12">
+              <div class="product-image">
+                <img src="./images/home/cub7.jpg" class="main-img" alt="main" />
+                <img
+                  src="./images/home/cub8.jpg"
+                  class="hover-img"
+                  alt="hover"
+                />
+              </div>
+              <button class="add-to-cart">
+                <img src="./images/home/cart.png" alt="cart" />
+                <p class="text-capitalize mb-0">add to cart</p>
+              </button>
+              <div class="product-info">
+                <h3>Espresso</h3>
+                <div class="details">
+                  <span>Coffee</span>
+                  <span class="price">$8</span>
+                </div>
+              </div>
+            </div>
+            <div class="product-card col-lg-3 col-md-6 col-sm-12">
+              <div class="product-image">
+                <img src="./images/home/cub4.jpg" class="main-img" alt="main" />
+                <img
+                  src="./images/home/cub1.jpg"
+                  class="hover-img"
+                  alt="hover"
+                />
+              </div>
+              <button class="add-to-cart">
+                <img src="./images/home/cart.png" alt="cart" />
+                <p class="text-capitalize mb-0">add to cart</p>
+              </button>
+              <div class="product-info">
+                <h3>Espresso</h3>
+                <div class="details">
+                  <span>Coffee</span>
+                  <span class="price">$8</span>
+                </div>
+              </div>
+            </div>
+            <div class="product-card col-lg-3 col-md-6 col-sm-12">
+              <div class="product-image">
+                <img src="./images/home/cub1.jpg" class="main-img" alt="main" />
+                <img
+                  src="./images/home/cub6.jpg"
+                  class="hover-img"
+                  alt="hover"
+                />
+              </div>
+              <button class="add-to-cart">
+                <img src="./images/home/cart.png" alt="cart" />
+                <p class="text-capitalize mb-0">add to cart</p>
+              </button>
+              <div class="product-info">
+                <h3>Espresso</h3>
+                <div class="details">
+                  <span>Coffee</span>
+                  <span class="price">$8</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="end d-flex justify-content-center">
+          <p class="text-center">View all coffees</p>
+        </div>
       </div>
-    </div>
-  </div>
-  <div class="product-card col-lg-3 col-md-6 col-sm-12">
-    <div class="product-image">
-      <img src="./images/home/cub4.jpg" class="main-img" alt="main">
-      <img src="./images/home/cub1.jpg" class="hover-img" alt="hover">
-    </div>
-    <button class="add-to-cart">
-      <img src="./images/home/cart.png" alt="cart">
-      <p class="text-capitalize mb-0">add to cart</p>
-    </button>
-    <div class="product-info">
-      <h3>Espresso</h3>
-      <div class="details">
-        <span>Coffee</span>
-        <span class="price">$8</span>
+    </section>
+    <section class="enjoy">
+      <div class="container">
+        <div class="row align-items-center">
+          <div class="images col-lg-6 col-md-12 position-relative">
+            <div class="img1"></div>
+            <img
+              src="./images/home/enjoy-div1-image1.jpg"
+              class="img2"
+              alt="img2"
+            />
+            <img
+              src="./images/home/enjoy-div1-image2.jpg"
+              class="img3"
+              alt="img3"
+            />
+          </div>
+          <div class="data col-lg-6 col-md-12">
+            <h2>
+              <span class="text-beige">Enjoy</span>
+              <span class="text-dark"> Having </span>
+              <br />
+              <span class="text-dark">Great</span>
+              <span class="text-beige"> Meals</span>
+            </h2>
+            <p>
+              A coffeehouse, coffee shop, or café is an establishment that
+              primarily serves coffee of various types, e.g. espresso, latte,
+              and cappuccino.
+            </p>
+            <div class="buttons d-flex gap-3 mt-4">
+              <a
+                href="#"
+                class="btn btn-dark d-flex align-items-center gap-2 px-4 py-2"
+              >
+                <img src="./images/home/note.png" alt="note" />
+                <span class="text-uppercase">our menu</span>
+              </a>
+              <a
+                href="#"
+                class="btn btn-beige d-flex align-items-center gap-2 px-4 py-2"
+              >
+                <img src="./images/home/calendar.png" alt="calendar" />
+                <span class="text-uppercase">reserve now</span>
+              </a>
+            </div>
+          </div>
+        </div>
       </div>
-    </div>
-  </div>
-  <div class="product-card col-lg-3 col-md-6 col-sm-12">
-    <div class="product-image">
-      <img src="./images/home/cub1.jpg" class="main-img" alt="main">
-      <img src="./images/home/cub6.jpg" class="hover-img" alt="hover">
-    </div>
-    <button class="add-to-cart">
-      <img src="./images/home/cart.png" alt="cart">
-      <p class="text-capitalize mb-0">add to cart</p>
-    </button>
-    <div class="product-info">
-      <h3>Espresso</h3>
-      <div class="details">
-        <span>Coffee</span>
-        <span class="price">$8</span>
+    </section>
+    <section class="male-menu py-5">
+      <div class="container">
+        <h2 class="text-md-center text-lg-start text-uppercase">
+          meal <span>menu</span>
+        </h2>
+        <div class="row justify-content-center">
+          <div class="col-md-4 col-lg-3 col-sm-6 py-3">
+            <div class="cart text-center p-4 rounded">
+              <div class="image position-relative">
+                <img
+                  src="./images/home/menu2.jpg"
+                  alt="normal"
+                  class="img1 w-100 rounded-circle"
+                />
+                <img
+                  src="./images/home/menu3.jpg"
+                  alt="hover"
+                  class="img2 w-100 rounded-circle position-absolute top-0 start-0"
+                />
+                <div
+                  class="icons position-absolute top-50 start-50 translate-middle d-flex justify-content-center align-items-center gap-3"
+                >
+                  <span class="icon-wrapper" data-tooltip="Add to favorite">
+                    <img
+                      src="./images/home/heart-regular-full.svg"
+                      alt="heart"
+                      class="icon-img"
+                    />
+                  </span>
+                  <span class="icon-wrapper" data-tooltip="Search">
+                    <img
+                      src="./images/home/magnifying-glass-solid-full.svg"
+                      alt="search"
+                      class="icon-img"
+                    />
+                  </span>
+                </div>
+              </div>
+              <button class="add-to-cart btn rounded-pill mt-3">
+                <i class="fa-solid fa-cart-shopping me-2"></i>
+                Add to cart
+              </button>
+              <div class="data mt-3 d-flex justify-content-between">
+                <span class="name">Grilled Chicken</span>
+                <span class="price text-warning fw-bold">$35</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-4 col-lg-3 col-sm-6 py-3">
+            <div class="cart text-center p-4 rounded">
+              <div class="image position-relative">
+                <img
+                  src="./images/home/menu4.jpg"
+                  alt="normal"
+                  class="img1 w-100 rounded-circle"
+                />
+                <img
+                  src="./images/home/menu5.jpg"
+                  alt="hover"
+                  class="img2 w-100 rounded-circle position-absolute top-0 start-0"
+                />
+                <div
+                  class="icons position-absolute top-50 start-50 translate-middle d-flex justify-content-center align-items-center gap-3"
+                >
+                  <span class="icon-wrapper" data-tooltip="Add to favorite">
+                    <img
+                      src="./images/home/heart-regular-full.svg"
+                      alt="heart"
+                      class="icon-img"
+                    />
+                  </span>
+                  <span class="icon-wrapper" data-tooltip="Search">
+                    <img
+                      src="./images/home/magnifying-glass-solid-full.svg"
+                      alt="search"
+                      class="icon-img"
+                    />
+                  </span>
+                </div>
+              </div>
+              <button class="add-to-cart btn rounded-pill mt-3">
+                <i class="fa-solid fa-cart-shopping me-2"></i>
+                Add to cart
+              </button>
+              <div class="data mt-3 d-flex justify-content-between">
+                <span class="name">Beef Burger</span>
+                <span class="price text-warning fw-bold">$40</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-4 col-lg-3 col-sm-6 py-3">
+            <div class="cart text-center p-4 rounded">
+              <div class="image position-relative">
+                <img
+                  src="./images/home/menu6.jpg"
+                  alt="normal"
+                  class="img1 w-100 rounded-circle"
+                />
+                <img
+                  src="./images/home/menu7.jpg"
+                  alt="hover"
+                  class="img2 w-100 rounded-circle position-absolute top-0 start-0"
+                />
+                <div
+                  class="icons position-absolute top-50 start-50 translate-middle d-flex justify-content-center align-items-center gap-3"
+                >
+                  <span class="icon-wrapper" data-tooltip="Add to favorite">
+                    <img
+                      src="./images/home/heart-regular-full.svg"
+                      alt="heart"
+                      class="icon-img"
+                    />
+                  </span>
+                  <span class="icon-wrapper" data-tooltip="Search">
+                    <img
+                      src="./images/home/magnifying-glass-solid-full.svg"
+                      alt="search"
+                      class="icon-img"
+                    />
+                  </span>
+                </div>
+              </div>
+              <button class="add-to-cart btn rounded-pill mt-3">
+                <i class="fa-solid fa-cart-shopping me-2"></i>
+                Add to cart
+              </button>
+              <div class="data mt-3 d-flex justify-content-between">
+                <span class="name">Pasta Alfredo</span>
+                <span class="price text-warning fw-bold">$32</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-4 col-lg-3 col-sm-6 py-3">
+            <div class="cart text-center p-4 rounded">
+              <div class="image position-relative">
+                <img
+                  src="./images/home/menu8.jpg"
+                  alt="normal"
+                  class="img1 w-100 rounded-circle"
+                />
+                <img
+                  src="./images/home/menu1.jpg"
+                  alt="hover"
+                  class="img2 w-100 rounded-circle position-absolute top-0 start-0"
+                />
+                <div
+                  class="icons position-absolute top-50 start-50 translate-middle d-flex justify-content-center align-items-center gap-3"
+                >
+                  <span class="icon-wrapper" data-tooltip="Add to favorite">
+                    <img
+                      src="./images/home/heart-regular-full.svg"
+                      alt="heart"
+                      class="icon-img"
+                    />
+                  </span>
+                  <span class="icon-wrapper" data-tooltip="Search">
+                    <img
+                      src="./images/home/magnifying-glass-solid-full.svg"
+                      alt="search"
+                      class="icon-img"
+                    />
+                  </span>
+                </div>
+              </div>
+              <button class="add-to-cart btn rounded-pill mt-3">
+                <i class="fa-solid fa-cart-shopping me-2"></i>
+                Add to cart
+              </button>
+              <div class="data mt-3 d-flex justify-content-between">
+                <span class="name">Shrimp Tacos</span>
+                <span class="price text-warning fw-bold">$42</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-4 col-lg-3 col-sm-6 py-3">
+            <div class="cart text-center p-4 rounded">
+              <div class="image position-relative">
+                <img
+                  src="./images/home/menu3.jpg"
+                  alt="normal"
+                  class="img1 w-100 rounded-circle"
+                />
+                <img
+                  src="./images/home/menu6.jpg"
+                  alt="hover"
+                  class="img2 w-100 rounded-circle position-absolute top-0 start-0"
+                />
+                <div
+                  class="icons position-absolute top-50 start-50 translate-middle d-flex justify-content-center align-items-center gap-3"
+                >
+                  <span class="icon-wrapper" data-tooltip="Add to favorite">
+                    <img
+                      src="./images/home/heart-regular-full.svg"
+                      alt="heart"
+                      class="icon-img"
+                    />
+                  </span>
+                  <span class="icon-wrapper" data-tooltip="Search">
+                    <img
+                      src="./images/home/magnifying-glass-solid-full.svg"
+                      alt="search"
+                      class="icon-img"
+                    />
+                  </span>
+                </div>
+              </div>
+              <button class="add-to-cart btn rounded-pill mt-3">
+                <i class="fa-solid fa-cart-shopping me-2"></i>
+                Add to cart
+              </button>
+              <div class="data mt-3 d-flex justify-content-between">
+                <span class="name">Vegan Bowl</span>
+                <span class="price text-warning fw-bold">$28</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-4 col-lg-3 col-sm-6 py-3">
+            <div class="cart text-center p-4 rounded">
+              <div class="image position-relative">
+                <img
+                  src="./images/home/menu7.jpg"
+                  alt="normal"
+                  class="img1 w-100 rounded-circle"
+                />
+                <img
+                  src="./images/home/menu8.jpg"
+                  alt="hover"
+                  class="img2 w-100 rounded-circle position-absolute top-0 start-0"
+                />
+                <div
+                  class="icons position-absolute top-50 start-50 translate-middle d-flex justify-content-center align-items-center gap-3"
+                >
+                  <span class="icon-wrapper" data-tooltip="Add to favorite">
+                    <img
+                      src="./images/home/heart-regular-full.svg"
+                      alt="heart"
+                      class="icon-img"
+                    />
+                  </span>
+                  <span class="icon-wrapper" data-tooltip="Search">
+                    <img
+                      src="./images/home/magnifying-glass-solid-full.svg"
+                      alt="search"
+                      class="icon-img"
+                    />
+                  </span>
+                </div>
+              </div>
+              <button class="add-to-cart btn rounded-pill mt-3">
+                <i class="fa-solid fa-cart-shopping me-2"></i>
+                Add to cart
+              </button>
+              <div class="data mt-3 d-flex justify-content-between">
+                <span class="name">BBQ Ribs</span>
+                <span class="price text-warning fw-bold">$48</span>
+              </div>
+            </div>
+          </div>
+          <div class="view text-center mt-4">
+            <a href="#">
+              <img src="./images/home/bowl-food-solid-full.svg" alt="" />
+              <span class="text-uppercase">view all foods</span>
+            </a>
+          </div>
+        </div>
       </div>
-    </div>
-  </div>
+    </section>
+    <section class="whatour py-5">
+      <div class="container">
+        <div class="row align-items-center justify-content-between">
+          <!-- Left Column: Title + Text -->
+          <div class="col-lg-6 mb-4 mb-lg-3 position-relative">
+            <div class="data pe-lg-5">
+              <h2 class="section-title">
+                What Our <span class="highlight">Customers</span> Said
+              </h2>
+              <p class="section-desc">
+                A coffeehouse, coffee shop, or café is an establishment that
+                primarily serves coffee of various types, e.g. espresso, latte,
+                and cappuccino.
+              </p>
+            </div>
+          </div>
+
+          <div class="col-lg-6">
+            <div
+              id="testimonialCarousel"
+              class="carousel slide"
+              data-bs-ride="carousel"
+            >
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                  <div class="testimonial p-4 shadow bg-white rounded">
+                    <p class="testimonial-text">
+                      "XTRA Cafe is my go-to spot for amazing coffee and a
+                      relaxing vibe..."
+                    </p>
+                    <div class="d-flex align-items-center mt-4">
+                      <img
+                        src="./images/home/person1.jpg"
+                        alt="Jane Carter"
+                        class="rounded-circle me-3"
+                        width="60"
+                        height="60"
+                      />
+                      <div>
+                        <h6 class="mb-0 text-beige">Jane Carter</h6>
+                        <small class="text-muted">Artist</small>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="carousel-item">
+                  <div class="testimonial p-4 shadow bg-white rounded">
+                    <p class="testimonial-text">
+                      "The food is so good, thanks!"
+                    </p>
+                    <div class="d-flex align-items-center mt-4">
+                      <img
+                        src="./images/home/person2.jpg"
+                        alt="Ibrahim Khader"
+                        class="rounded-circle me-3"
+                        width="60"
+                        height="60"
+                      />
+                      <div>
+                        <h6 class="mb-0 text-beige">Ibrahim Khader</h6>
+                        <small class="text-muted">Artist</small>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="carousel-item">
+                  <div class="testimonial p-4 shadow bg-white rounded">
+                    <p class="testimonial-text">"I love this coffee shop!"</p>
+                    <div class="d-flex align-items-center mt-4">
+                      <img
+                        src="./images/home/person3.jpg"
+                        alt="Dimond"
+                        class="rounded-circle me-3"
+                        width="60"
+                        height="60"
+                      />
+                      <div>
+                        <h6 class="mb-0 text-beige">Dimond</h6>
+                        <small class="text-muted">Artist</small>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <button
+                class="carousel-control-prev custom-arrow"
+                type="button"
+                data-bs-target="#testimonialCarousel"
+                data-bs-slide="prev"
+              >
+                <span class="carousel-control-prev-icon"></span>
+              </button>
+              <button
+                class="carousel-control-next custom-arrow"
+                type="button"
+                data-bs-target="#testimonialCarousel"
+                data-bs-slide="next"
+              >
+                <span class="carousel-control-next-icon"></span>
+              </button>
+
+              <div class="carousel-indicators mt-4 justify-content-center">
+                <button
+                  type="button"
+                  data-bs-target="#testimonialCarousel"
+                  data-bs-slide-to="0"
+                  class="active bg-beige"
+                  aria-current="true"
+                ></button>
+                <button
+                  type="button"
+                  data-bs-target="#testimonialCarousel"
+                  data-bs-slide-to="1"
+                  class="bg-beige"
+                ></button>
+                <button
+                  type="button"
+                  data-bs-target="#testimonialCarousel"
+                  data-bs-slide-to="2"
+                  class="bg-beige"
+                ></button>
+              </div>
+            </div>
+            <!-- /carousel -->
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="not-reguler">
+      <div class="container  my-5">
+        <div class="row">
+          <div class="maintext py-5 col-lg-6 col-md-12">
+            <h2>
+            <span class="beige">Xtra Cafe</span> Not a Regular
+            <span class="beige"> Cafe</span>
+            <h2>
+
+          </div>
+          <div class="text  py-5 col-lg-6 col-md-12">
+            <p>
+            A coffeehouse, coffee shop, or café is an establishment that
+            primarily serves coffee of various types, e.g. espresso, latte, and
+            cappuccino. Some coffeehouses may serve cold drinks, such as iced
+            coffee, iced tea, and other non-caffeinated beverages. In
+            continental Europe, cafés serve alcoholic drinks.
+            </p>
+          </div>
+          <hr/>
+        </div>
+        <div class="row justify-content-center align-items-center py-5">
+         <div class="stat-box text-center col-lg-3 col-md-4 col-sm-6">
+  <h2 class="stat-number">
+    14<span class="plus">+</span>
+  </h2>
+  <p class="stat-label">Meeting Rooms</p>
+</div>
+         <div class="stat-box text-center col-lg-3 col-md-4 col-sm-6">
+  <h2 class="stat-number">
+    56<span class="plus">+</span>
+  </h2>
+  <p class="stat-label">Menu Items</p>
+</div>
+         <div class="stat-box text-center col-lg-3 col-md-4 col-sm-6">
+  <h2 class="stat-number">
+    170<span class="plus">k</span>
+  </h2>
+  <p class="stat-label">Coffee Server</p>
+</div>
+         <div class="stat-box text-center col-lg-3 col-md-4 col-sm-6">
+  <h2 class="stat-number">
+    90<span class="plus">+</span>
+  </h2>
+  <p class="stat-label">Town Branches</p>
 </div>
 
         </div>
-
-        <div class="end d-flex justify-content-center ">
-          <p class="text-center ">
-          View all coffees
-          </p>
+        <div class="row">
+          <div class="images1 my-1 col-lg-3 col-md-12">
+            <div class="d-flex flex-column g-3">
+              <img src="./images/home/not-r.jpg" alt="">
+              <img src="./images/home/not-r5.jpg" alt="">
+            </div>
           </div>
+          <div class="images2 col-lg-6 col-md-12">
+            <img src="./images/home/not-r2.jpg" alt="img">
+          </div>
+          <div class="images3 my-1 col-lg-3 col-md-12">
+              <img src="./images/home/not-r3.jpg" alt="">
+              <img src="./images/home/not-r1.jpg" alt="">
+          </div>
+        </div>
       </div>
+
     </section>
-    <script
-      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js"></script>
+
+<section class="fet py-5">
+  <div class="container">
+    <div class="row g-5">
+      <div class="col-lg-6 col-md-12 reserve-table">
+        <h2 class="mb-3">
+          <span class="beige">Reserve</span> <strong>a Table</strong>
+        </h2>
+        <p class="mb-4">
+          Reserve your table and enjoy your favorite cup without the wait.
+          Perfect for friendly catch-ups, quiet work sessions, or coffee dates
+          your spot is just a click away.
+        </p>
+        <div class="d-flex gap-3 flex-wrap">
+          <a href="#" class="reserve-btn d-flex align-items-center">
+            <img src="./images/home/check.png" alt="check">
+            <span>RESERVE NOW</span>
+          </a>
+          <a href="#" class="phone-btn d-flex align-items-center">
+            <img src="./images/home/phone.svg" alt="phone">
+            <span>+972 522377931</span>
+          </a>
+        </div>
+      </div>
+
+      <div class="col-lg-6 col-md-12 newsletter-subscribe">
+        <h2 class="mb-3">
+          <span class="beige">Newsletter</span> <strong>Subscription</strong>
+        </h2>
+        <p class="mb-4">
+          Subscribe to our newsletter for the latest brews, special offers,
+          and cozy events. Be the first to know what’s brewing at your favorite
+          neighborhood coffee spot.
+        </p>
+        <form class="d-flex email-form">
+          <input type="email" class="form-control" placeholder="Enter your email ...">
+          <button type="submit" class="submit-btn d-flex align-items-center">
+            <img src="./images/home/email.svg" alt="email">
+            <span>Join Now</span>
+          </button>
+        </form>
+      </div>
+    </div>
+  </div>
+</section>
+
+<footer class="not-regular-footer py-5">
+  <div class="container">
+    <div class="row">
+      
+      <div class="div1 col-lg-4 col-md-6 col-sm-12 mb-4">
+        <img src="./images/home/logo2.png" class="logo-img" alt="XtraCafe" class="mb-4">
+
+        <div class="info d-flex align-items-start mb-3">
+          <img src="./images/home/location-dot-solid-full.svg" class="icon me-2" alt="location">
+          <div>
+            <h6 class="title text-uppercase text-beige mb-1">Address</h6>
+            <p class="text-white m-0">No.23, King St. Gold Ave. NY 74521</p>
+          </div>
+        </div>
+
+        <div class="info d-flex align-items-start mb-3">
+          <img src="./images/home/phone.svg" class="icon me-2" alt="phone">
+          <div>
+            <h6 class="title text-uppercase text-beige mb-1">Tel</h6>
+            <p class="text-white m-0">+1 (800) 1234 567</p>
+          </div>
+        </div>
+
+        <div class="info d-flex align-items-start">
+          <img src="./images/home/phone.svg" class="icon me-2" alt="phone">
+          <div>
+            <h6 class="title text-uppercase text-beige mb-1">Tel</h6>
+            <p class="text-white m-0">+1 (800) 1234 568</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Working Hours -->
+      <div class="div2 col-lg-4 col-md-6 col-sm-12 mb-4">
+        <h5 class="text-white fw-bold mb-3 font2">Working Hours</h5>
+        <hr class="custom-hr mb-4">
+
+        <div class="info d-flex align-items-start mb-4">
+          <img src="./images/home/clock-solid-full.svg" class="icon me-2" alt="clock">
+          <div>
+            <h6 class="title text-uppercase text-beige mb-1">Opening Hours</h6>
+            <p class="text-white m-0">Sunday - Thursday 9:00 AM - 12:00 AM</p>
+            <p class="text-white m-0">Friday Saturday 9:00 AM - 2:00 AM</p>
+          </div>
+        </div>
+
+        <div class="info d-flex align-items-start">
+          <img src="./images/home/coffee-mug.svg" class="icon me-2" alt="bean">
+          <div>
+            <h6 class="title text-uppercase text-beige mb-1">Breakfast Buffet</h6>
+            <p class="text-white m-0">Sunday - Thursday 9:00 AM - 12:00 AM</p>
+            <p class="text-white m-0">Friday Saturday 9:00 AM - 2:00 AM</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="div3 col-lg-4 col-md-6 col-sm-12">
+        <img src="./images/home/map.jpg" class="img-fluid rounded" alt="map">
+      </div>
+
+    </div>
+  </div>
+</footer>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js"></script>
   </body>
 </html>
