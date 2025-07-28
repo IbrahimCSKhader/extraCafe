@@ -210,6 +210,10 @@ align-items: center;
 /* cade part */
 .cafe{
   background-image: url("./images/home/CAFE.jpg");
+  padding: 20px 5px;
+  justify-content: center;
+  align-items: center;
+
 }
 .cafe h2{
   font-family: var(--font2);
@@ -987,3 +991,142 @@ footer{
   height: auto;
   border-radius: 10px;
 }
+
+/* responsive code */
+
+
+@media (max-width: 575.98px) {
+  
+  .hero .left h1 {
+    font-size: 40px;
+    line-height: 50px;
+    text-align: center;
+  }
+  .hero .left p {
+    font-size: 16px;
+    text-align: center;
+  }
+  .hero .right img{
+    width: 80%;
+    height: 100%;
+    margin-left: 50px
+    };
+  .hero .btn-custom {
+    width: 100%;
+    justify-content: center;
+  }
+  .cafe .product-card {
+
+    width: 60%;
+  }
+  .cafe .product-image {
+    width: 9rem;
+    height: 9rem;
+  }
+  .male-menu .cart {
+    width: 60%;
+    margin: auto;
+  }
+    .whatour {
+    padding: 60px 20px; 
+    background-size: cover;
+    background-position: center;
+  }
+
+  .whatour .section-title {
+    font-size: 36px;
+    line-height: 1.2;
+    text-align: center;
+  }
+
+  .whatour .section-desc {
+    font-size: 15px;
+    line-height: 1.6;
+    text-align: center;
+  }
+
+  .whatour .data {
+    padding: 0 !important;
+  }
+
+  .whatour .row {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .whatour .carousel {
+    margin-top: 30px;
+  }
+  .not-reguler .maintext h2 {
+    font-size: 32px;
+    text-align: center;
+  }
+  .enjoy .data h2 {
+    font-size: 40px;
+    line-height: 50px;
+    text-align: center;
+  }
+  .carousel-control-prev,
+  .carousel-control-next {
+    width: 30px;
+    height: 30px;
+  }
+  html {
+    font-size: 16px !important;
+  }
+}
+
+@media (min-width: 576px) and (max-width: 767.98px) {
+  .main-header .nav ul {
+    flex-direction: column;
+    padding: 1rem;
+  }
+  .cafe .product-image {
+    width: 10rem;
+    height: 10rem;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+  .enjoy .images .img2,
+  .enjoy .images .img3 {
+    position: static;
+    transform: none;
+    margin: 1rem auto;
+  }
+  .enjoy .images {
+    height: auto;
+  }
+  .hero .left h1 {
+    font-size: 60px;
+    line-height: 70px;
+  }
+}
+
+@media (min-width: 992px) and (max-width: 1199.98px) {
+  .main-header .logo img {
+    height: 2rem;
+  }
+  .main-header .nav ul {
+    gap: 20px;
+  }
+    .whatour {
+    padding: 80px 30px;
+  }
+
+  .whatour .row {
+    flex-direction: column;
+    gap: 2rem;
+  }
+
+  .whatour .section-title,
+  .whatour .section-desc {
+    text-align: center;
+  }
+
+  .whatour .carousel {
+    margin: auto;
+    width: 90%;
+  }
+}
+
