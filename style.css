@@ -1130,3 +1130,144 @@ footer{
   }
 }
 
+
+/* about us */
+
+/* our history */
+.our-hestory {
+  background-image: url('./images/home/hero2.webp');
+}
+.our-hestory .logo h1 {
+  font-family: var(--font2);
+  font-size: 60px;
+  font-weight: 700;
+  color: #1a1302;
+  line-height: 62px;
+}
+.our-hestory .logo h1 span {
+  color: var(--beige);
+}
+.our-hestory .text-about-us p {
+  font-family: var(--font1);
+  font-weight: 400;
+  font-size: 23px;
+  line-height: 29px;
+  color: #1a1302;
+}
+.our-hestory .text-about-us p span {
+  color: var(--beige);
+}
+
+/* enjoy */
+.enjoy h2 {
+  font-family: var(--font2);
+  font-size: 50px;
+  font-weight: bold;
+}
+.enjoy p {
+  font-family: var(--font1);
+  font-size: 18px;
+  color: #1a1302;
+}
+
+/* infinite cycle */
+.infinite-cycle {
+  background-image: url('./images/home/CAFE.jpg');
+}
+.infinite-cycle .coffee {
+  position: relative;
+}
+.infinite-cycle .coffee img {
+  height: 100%;
+  overflow: hidden;
+  border-radius: 50%;
+  position: absolute;
+  left: 30%;
+  animation: rotateForever 6s linear infinite;
+}
+.infinite-cycle .details {
+  font-family: var(--font1);
+  font-weight: 400;
+  font-size: 23px;
+  line-height: 29px;
+  color: #ffffff;
+}
+.infinite-cycle .details span {
+  color: var(--beige);
+}
+@keyframes rotateForever {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+/* signature-meals */
+.signature-meals {
+  background-color: #fff9f3;
+}
+.signature-meals h2 {
+  font-family: var(--font2);
+  font-size: 48px;
+  color: var(--beige);
+}
+.signature-meals p {
+  font-family: var(--font1);
+  font-size: 18px;
+  color: #1a1302;
+}
+.signature-meals span {
+  color: var(--beige);
+}
+
+/* barista-showcase */
+.barista-showcase {
+  background-color: #f4f1eb;
+}
+.barista-showcase h2 {
+  font-family: var(--font2);
+  font-size: 48px;
+  color: #1a1302;
+}
+.barista-showcase p {
+  font-family: var(--font1);
+  font-size: 18px;
+  color: #1a1302;
+}
+.barista-showcase span {
+  color: var(--beige);
+}
+
+/* customer-testimonial */
+.customer-testimonial h2 {
+  font-family: var(--font2);
+  font-size: 42px;
+}
+.customer-testimonial p {
+  font-family: var(--font1);
+  font-size: 18px;
+  color: #1a1302;
+}
+.customer-testimonial span {
+  color: var(--beige);
+}
+
+/* location-preview */
+.location-preview{
+  background-color: #ffffff !important;
+}
+.location-preview h2 {
+  font-family: var(--font2);
+  font-size: 42px;
+  color: #1a1302;
+}
+.location-preview p {
+  font-family: var(--font1);
+  font-size: 18px;
+  color: #1a1302;
+}
+.location-preview span {
+  color: var(--beige);
+}
